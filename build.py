@@ -145,6 +145,8 @@ ol.line li:last-child {{ border-bottom: 1px solid var(--line); }}
 ol.line b {{ font-weight: 500; }}
 ol.line span {{ color: var(--mute); display: block; }}
 figure {{ margin: 1.2rem 0 0; }}
+figure.arms {{ margin: 0 0 1rem; max-width: 14rem; }}
+@media (min-width: 44rem) {{ figure.arms {{ float: right; margin: .2rem 0 1rem 2rem; }} #about::after {{ content: ""; display: block; clear: both; }} }}
 figure img {{ width: 100%; height: auto; display: block; }}
 figcaption {{ font-size: .95rem; color: var(--mute); margin-top: .4rem; }}
 ul.links {{ padding-left: 1.2rem; }}
@@ -173,6 +175,10 @@ footer a {{ color: var(--gold-2); }}
 
 <main class="wrap">
 <section id="about">
+<figure class="arms">
+<img src="assets/treat-arms.jpg" width="900" height="1127" alt="The Treat arms, painted: a shield of gold and red vertical stripes with a black bear in a silver canton, a helmet and crest above, and the name Treat beneath" loading="lazy">
+<figcaption>The Treat arms, from a painting in the family. The bear in the corner is the one on this page.</figcaption>
+</figure>
 <p class="lede">Nearly every Treat in America descends from one man, Richard Trott, baptised in the church at Pitminster in 1584, who crossed the Atlantic with his family in the 1630s and became Richard Treat of Wethersfield. His son Robert founded Newark and governed Connecticut; a grandson preached on Cape Cod; a great-great-grandson carried the name up the Penobscot, where the Maine Treats have been ever since. This page is the family's own: its games, its notable members, and the village it came from.</p>
 </section>
 
@@ -212,8 +218,12 @@ footer a {{ color: var(--gold-2); }}
 <p>The church of St Andrew and St Mary, where Richard was baptised in 1584 and married in 1615, still stands four miles south of Taunton, with the brass that John Harvey Treat placed there in 1902. The family keeps a separate site about the church, the village and the families who sailed from it, with a family wall where cousins can leave a note.</p>
 <p><a class="btn" href="https://pitminster.pages.dev">FRIENDS OF PITMINSTER</a></p>
 <figure>
-<img src="assets/pitminster-church.jpg" width="640" height="467" alt="The church of St Andrew and St Mary at Pitminster, from the south-east" loading="lazy">
-<figcaption>St Andrew &amp; St Mary, Pitminster. Photograph by Mike Searle, CC BY-SA 2.0.</figcaption>
+<img src="assets/treat-brass.jpg" width="1400" height="791" alt="The brass of 1902 in the church at Pitminster, in memory of Richard Treat, alias Trott, baptised there in 1584, and his son Robert, Governor of Connecticut, erected by their descendant John Harvey Treat of America" loading="lazy">
+<figcaption>The brass John Harvey Treat placed in the church in 1902, photographed on the family's visit in June 2026.</figcaption>
+</figure>
+<figure>
+<img src="assets/pitminster-church.jpg" width="1400" height="1050" alt="The church of St Andrew and St Mary at Pitminster at dusk, seen across the churchyard" loading="lazy">
+<figcaption>St Andrew &amp; St Mary from the churchyard, June 2026.</figcaption>
 </figure>
 </section>
 
