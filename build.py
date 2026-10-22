@@ -197,8 +197,6 @@ footer a {{ color: var(--gold-2); }}
 <h2>Notable Treats</h2>
 <p>Checked against the 1893 genealogy and the published record. Most of these are cousins; the ones in the family's direct Maine line are marked on the line below.</p>
 {people_html()}
-<h3>Claims that do not hold up</h3>
-<p>Lists online name the Bushes, Samuel Colt, Henry Ford II and the actor Treat Williams as Treat descendants. Checked against published genealogies, none of them is: the Bushes are cousins by marriage only, and Treat Williams was named for a grandfather. Two famous cousins do hold: the statistician W. Edwards Deming, through Richard's daughter Honor and John Deming, and Lincoln's Navy Secretary Gideon Welles, through Richard's daughter Joanna.</p>
 </section>
 
 <section id="line">
