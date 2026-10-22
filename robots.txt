@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://treatfamily.org/sitemap.xml
