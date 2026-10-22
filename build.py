@@ -216,7 +216,7 @@ footer a {{ color: var(--gold-2); }}
 <section id="pitminster">
 <h2>Pitminster</h2>
 <p>The church of St Andrew and St Mary, where Richard was baptised in 1584 and married in 1615, still stands four miles south of Taunton, with the brass that John Harvey Treat placed there in 1902. The family keeps a separate site about the church, the village and the families who sailed from it, with a family wall where cousins can leave a note.</p>
-<p><a class="btn" href="https://pitminster.pages.dev">FRIENDS OF PITMINSTER</a></p>
+<p><a class="btn" href="https://pitminsterchurchonline.org">FRIENDS OF PITMINSTER</a></p>
 <figure>
 <img src="assets/treat-brass.jpg" width="1400" height="791" alt="The brass of 1902 in the church at Pitminster, in memory of Richard Treat, alias Trott, baptised there in 1584, and his son Robert, Governor of Connecticut, erected by their descendant John Harvey Treat of America" loading="lazy">
 <figcaption>The brass John Harvey Treat placed in the church in 1902, photographed on the family's visit in June 2026.</figcaption>
@@ -241,7 +241,7 @@ footer a {{ color: var(--gold-2); }}
 </main>
 
 <footer><div class="wrap">
-<p>A family site, kept by Treat descendants in Maine. To add a name, correct a date, or reach the family, use the <a href="https://pitminster.pages.dev/contact.html">contact page at Friends of Pitminster</a>. The bear in the arms is adapted from an illustration by Rinaldum on Wikimedia Commons (CC BY-SA 3.0).</p>
+<p>A family site, kept by Treat descendants in Maine. To add a name, correct a date, or reach the family, use the <a href="https://pitminsterchurchonline.org/contact.html">contact page at Friends of Pitminster</a>. The bear in the arms is adapted from an illustration by Rinaldum on Wikimedia Commons (CC BY-SA 3.0).</p>
 </div></footer>
 </body>
 </html>
