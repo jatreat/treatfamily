@@ -336,7 +336,7 @@ footer .credit {{ font-size: .95rem; color: #8D9AB0; }}
 <footer><div class="wrap">
 <a class="brand" href="#top"><img src="assets/shield.svg" alt="" width="24" height="29">The Treat Family</a>
 <div>
-<p>A family site, kept by Treat descendants in Maine. To add a name, correct a date, or reach the family, use the <a href="https://pitminsterchurchonline.org/contact.html">contact page at Friends of Pitminster</a>.</p>
+<p>A family site, kept by Treat descendants in Maine. To add a name, correct a date, or reach the family, use the <a href="https://pitminsterchurchonline.org/contact">contact page at Friends of Pitminster</a>.</p>
 <p class="credit">The bear in the arms is adapted from an illustration by Rinaldum on Wikimedia Commons (CC BY-SA 3.0). Photographs of Pitminster by the family, June 2026.</p>
 </div>
 </div></footer>
