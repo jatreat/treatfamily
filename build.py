@@ -279,7 +279,7 @@ footer .credit {{ font-size: .95rem; color: #8D9AB0; }}
 </div>
 <div class="games">
 <article class="game">
-<img src="assets/treatopoly-cover.jpg" width="800" height="500" alt="The Treatopoly title screen, with the Treat shield and options to play against the ancestors, pass and play, or host an online game" loading="lazy">
+<img src="assets/treatopoly-cover.jpg" width="1200" height="750" alt="A painted game board on a candle-lit table with the Treat arms at its centre, brass tokens, dice and cards" loading="lazy">
 <div class="body">
 <h3>Treatopoly</h3>
 <p>The family's board game: forty spaces in order from Set Sail 1637 to Return to Pitminster, the Charter Oak and the Family Bible for the two decks, a lobster bake for free parking. Play online with family in other houses, or against bots named for the ancestors.</p>
@@ -287,7 +287,7 @@ footer .credit {{ font-size: .95rem; color: #8D9AB0; }}
 </div>
 </article>
 <article class="game">
-<img src="assets/treat-trail-cover.jpg" width="800" height="500" alt="The Treat Trail title screen, with the Treat arms and the route from Pitminster to Connecticut, Cape Cod, Maine and back" loading="lazy">
+<img src="assets/treat-trail-cover.jpg" width="1200" height="750" alt="A painted panorama of the journey: a Somerset church, a ship at sea, a colonial settlement, an ox wagon and the Maine coast at sunset" loading="lazy">
 <div class="body">
 <h3>The Treat Trail</h3>
 <p>Three hundred and eighty-nine years from Pitminster in the style of the Oregon Trail: the crossing, Wethersfield, Newark, the Penobscot and on. Buy provisions, mind the rations and the weather, and get the family through.</p>
