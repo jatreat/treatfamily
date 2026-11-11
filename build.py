@@ -203,6 +203,9 @@ ol.line {{ list-style: none; margin: 0; padding: 0; max-width: 50rem; }}
 .voyage {{ margin: 0 auto; max-width: 27rem; width: 100%; }}
 .voyage img, .voyage video {{ display: block; width: 100%; height: auto; aspect-ratio: 1200 / 1607; object-fit: cover; mix-blend-mode: lighten;
   -webkit-mask-image: radial-gradient(ellipse 50% 50% at 50% 50%, #000 62%, transparent 100%); mask-image: radial-gradient(ellipse 50% 50% at 50% 50%, #000 62%, transparent 100%); }}
+.voyage-art {{ position: relative; }}
+.voyage-art video {{ position: absolute; inset: 0; height: 100%; }}
+@media (prefers-reduced-motion: reduce) {{ .voyage-art video {{ display: none; }} }}
 .voyage figcaption {{ font-family: var(--sans); font-size: .82rem; color: #8FA0BA; text-align: center; margin-top: .4rem; }}
 ol.line li {{ display: grid; grid-template-columns: 4.5rem minmax(0, 1fr); gap: 1.2rem; position: relative; padding-bottom: 1.6rem; }}
 ol.line li::after {{ content: ""; position: absolute; left: 2.25rem; top: 3.6rem; bottom: .4rem; width: 1px; background: rgba(214,167,64,.45); }}
@@ -308,7 +311,8 @@ footer .credit {{ font-size: .95rem; color: #8D9AB0; }}
 </div>
 <div class="line-grid">
 <figure class="voyage">
-<picture><source srcset="assets/voyage.webp" type="image/webp"><img src="assets/voyage.jpg" width="1200" height="1607" alt="An engraving-style drawing of a three-masted ship of the 1630s under sail toward a wooded shore and a river mouth" loading="lazy"></picture>
+<div class="voyage-art"><picture><source srcset="assets/voyage.webp" type="image/webp"><img src="assets/voyage.jpg" width="1200" height="1607" alt="An engraving-style drawing of a three-masted ship of the 1630s under sail toward a wooded shore and a river mouth" loading="lazy"></picture>
+<video autoplay muted loop playsinline preload="none" poster="assets/voyage.jpg" aria-hidden="true" tabindex="-1"><source src="assets/voyage-loop.mp4" type="video/mp4"></video></div>
 <figcaption>The crossing, imagined.</figcaption>
 </figure>
 <ol class="line">
