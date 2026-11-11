@@ -198,6 +198,12 @@ figcaption {{ font-size: 1rem; color: var(--slate); margin-top: .6rem; line-heig
 .line-sec h2 {{ color: var(--white); }}
 .line-sec .sec-head p {{ color: #B9C4D6; }}
 ol.line {{ list-style: none; margin: 0; padding: 0; max-width: 50rem; }}
+.line-grid {{ display: grid; gap: 2.5rem; }}
+@media (min-width: 60rem) {{ .line-grid {{ grid-template-columns: minmax(0, 1fr) minmax(18rem, 27rem); gap: 3rem; align-items: start; }} .voyage {{ order: 2; position: sticky; top: 5.5rem; }} }}
+.voyage {{ margin: 0 auto; max-width: 27rem; width: 100%; }}
+.voyage img, .voyage video {{ display: block; width: 100%; height: auto; aspect-ratio: 1200 / 1607; object-fit: cover; mix-blend-mode: lighten;
+  -webkit-mask-image: radial-gradient(ellipse 50% 50% at 50% 50%, #000 62%, transparent 100%); mask-image: radial-gradient(ellipse 50% 50% at 50% 50%, #000 62%, transparent 100%); }}
+.voyage figcaption {{ font-family: var(--sans); font-size: .82rem; color: #8FA0BA; text-align: center; margin-top: .4rem; }}
 ol.line li {{ display: grid; grid-template-columns: 4.5rem minmax(0, 1fr); gap: 1.2rem; position: relative; padding-bottom: 1.6rem; }}
 ol.line li::after {{ content: ""; position: absolute; left: 2.25rem; top: 3.6rem; bottom: .4rem; width: 1px; background: rgba(214,167,64,.45); }}
 ol.line li:last-child::after {{ display: none; }}
@@ -300,9 +306,15 @@ footer .credit {{ font-size: .95rem; color: #8D9AB0; }}
 <h2>From Pitminster to the Penobscot</h2>
 <p>The documented male line, generation by generation, as kept on the family tree and checked against the 1893 genealogy. The living generations are left off a public page.</p>
 </div>
+<div class="line-grid">
+<figure class="voyage">
+<picture><source srcset="assets/voyage.webp" type="image/webp"><img src="assets/voyage.jpg" width="1200" height="1607" alt="An engraving-style drawing of a three-masted ship of the 1630s under sail toward a wooded shore and a river mouth" loading="lazy"></picture>
+<figcaption>The crossing, imagined. A modern illustration, not a period engraving.</figcaption>
+</figure>
 <ol class="line">
 {line_html()}
 </ol>
+</div>
 </div></section>
 
 <section id="pitminster" class="alt"><div class="wrap pit">
