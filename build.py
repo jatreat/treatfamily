@@ -309,7 +309,7 @@ footer .credit {{ font-size: .95rem; color: #8D9AB0; }}
 <div class="line-grid">
 <figure class="voyage">
 <picture><source srcset="assets/voyage.webp" type="image/webp"><img src="assets/voyage.jpg" width="1200" height="1607" alt="An engraving-style drawing of a three-masted ship of the 1630s under sail toward a wooded shore and a river mouth" loading="lazy"></picture>
-<figcaption>The crossing, imagined. A modern illustration, not a period engraving.</figcaption>
+<figcaption>The crossing, imagined.</figcaption>
 </figure>
 <ol class="line">
 {line_html()}
