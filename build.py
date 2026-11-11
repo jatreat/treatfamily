@@ -3,9 +3,9 @@
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-shield = (ROOT / "assets" / "shield.svg").read_text(encoding="utf-8").replace(
-    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 120"',
-    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 120" class="arms"', 1)
+shield = ('<img class="arms" src="assets/treat-arms-450.webp" srcset="assets/treat-arms-450.webp 450w, assets/treat-arms-900.webp 900w" '
+          'sizes="(min-width: 48rem) 11rem, 8rem" width="450" height="546" '
+          'alt="The Treat arms: a shield of gold and red stripes with a black bear in a silver corner, a helmet, red and gold mantling, and a unicorn\'s head crest">')
 
 PEOPLE = [
     ("The founders", "Within one generation of landing, the family was named in Connecticut's royal charter, had founded Newark, and held the colony's governorship.", [
@@ -136,7 +136,8 @@ a:hover {{ color: var(--gold-ink); }}
 @media (max-width: 48rem) {{ .hero::before {{ background: linear-gradient(180deg, rgba(20,33,61,.55) 0%, rgba(20,33,61,.92) 55%); }} }}
 .hero::after {{ content: ""; position: absolute; inset: auto 0 0 0; height: 4px; background: var(--gold); z-index: 2; }}
 .hero .wrap {{ position: relative; z-index: 2; padding-block: clamp(4rem, 2rem + 9vw, 9rem); }}
-.hero .arms {{ width: 4.5rem; height: auto; display: block; margin-bottom: 1.6rem; filter: drop-shadow(0 4px 14px rgba(0,0,0,.45)); }}
+.hero .arms {{ width: 8rem; height: auto; display: block; margin-bottom: 1.4rem; filter: drop-shadow(0 6px 18px rgba(0,0,0,.5)); }}
+@media (min-width: 48rem) {{ .hero .arms {{ width: 11rem; }} }}
 .hero h1 {{ font-weight: 500; font-size: clamp(3.2rem, 2rem + 6vw, 6rem); line-height: .98; margin: 0 0 1.2rem; letter-spacing: -0.01em; }}
 .hero p {{ font-size: clamp(1.25rem, 1.1rem + .6vw, 1.55rem); line-height: 1.45; color: #E6EAF1; max-width: 30ch; margin: 0 0 2.2rem; }}
 @media (max-width: 48rem) {{ .hero .wrap {{ padding-top: 12rem; }} }}
