@@ -90,7 +90,10 @@ HTML = f"""<!doctype html>
 <meta property="og:description" content="Descendants of Richard Trott of Pitminster, who settled Wethersfield, Connecticut, in 1637.">
 <meta property="og:image" content="https://treatfamily.org/assets/pitminster-church.jpg">
 <meta name="theme-color" content="#14213D">
-<link rel="icon" href="assets/shield.svg" type="image/svg+xml">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
+<link rel="icon" href="icon-192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Public+Sans:wght@400;500;600&display=swap">
 <style>
@@ -118,7 +121,7 @@ a:hover {{ color: var(--gold-ink); }}
 .top {{ position: sticky; top: 0; z-index: 5; background: rgba(20,33,61,.97); border-bottom: 1px solid rgba(214,167,64,.35); font-family: var(--sans); }}
 .top .wrap {{ display: flex; align-items: center; gap: 1.5rem; min-height: 3.75rem; }}
 .brand {{ display: flex; align-items: center; gap: .65rem; color: var(--white); text-decoration: none; font-family: var(--serif); font-size: 1.3rem; font-weight: 500; white-space: nowrap; }}
-.brand img {{ width: 1.5rem; height: auto; display: block; }}
+.brand img {{ width: 2rem; height: auto; display: block; }}
 .brand:hover {{ color: var(--white); }}
 .top nav {{ margin-left: auto; display: flex; gap: 1.5rem; }}
 .top nav a {{ color: #C9D2E0; text-decoration: none; font-size: .95rem; font-weight: 500; white-space: nowrap; }}
@@ -240,7 +243,7 @@ footer .credit {{ font-size: .95rem; color: #8D9AB0; }}
 <a class="skip" href="#main">Skip to content</a>
 
 <header class="top"><div class="wrap">
-<a class="brand" href="#top"><img src="assets/shield.svg" alt="" width="24" height="29">The Treat Family</a>
+<a class="brand" href="#top"><img src="assets/treat-arms-mark.png" alt="" width="34" height="41">The Treat Family</a>
 <nav aria-label="Sections">
 <a href="#games">Games</a>
 <a href="#people">Notable Treats</a>
@@ -351,7 +354,7 @@ footer .credit {{ font-size: .95rem; color: #8D9AB0; }}
 </main>
 
 <footer><div class="wrap">
-<a class="brand" href="#top"><img src="assets/shield.svg" alt="" width="24" height="29">The Treat Family</a>
+<a class="brand" href="#top"><img src="assets/treat-arms-mark.png" alt="" width="34" height="41">The Treat Family</a>
 <div>
 <p>A family site, kept by Treat descendants in Maine. To add a name, correct a date, or reach the family, use the <a href="https://pitminsterchurchonline.org/contact">contact page at Friends of Pitminster</a>.</p>
 <p class="credit">The bear in the arms is adapted from an illustration by Rinaldum on Wikimedia Commons (CC BY-SA 3.0). Photographs of Pitminster by the family, June 2026.</p>
